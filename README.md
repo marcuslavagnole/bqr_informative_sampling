@@ -1,8 +1,12 @@
 Directory with R routines used in:
 
 1. **Bayesian quantile regression models for complex survey data under informative sampling**, Submitted.
-2. aaa
 
 - **MCMC_BWQR_AL.R** : MCMC routine for the weighted quantile regression based on the Asymmetric Laplace distribution;
 - **MCMC_BWQR_SL.R** : MCMC routine for the weighted quantile regression based on the score likelihood;
 - **MCMC_BWQR_AP.R** : MCMC routine for the weighted quantile regression based on the approximate method.
+
+2. **Bayesian quantile regression models for bounded count data under informative sampling**. 
+
+- **MCMC_BWQR_AL.R** : MCMC routine for the weighted quantile regression based on the Asymmetric Laplace distribution;
+- **MCMC_BWQR_AL.R** : MCMC routine for the weighted quantile regression based on the Asymmetric Laplace distribution.
