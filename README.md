@@ -9,4 +9,4 @@ Directory with R routines used in:
 2. **Bayesian quantile regression models for bounded count data under informative sampling**. 
 
 - **MCMC_BWQR_AL_count.R** : MCMC routine for the weighted quantile regression based on the Asymmetric Laplace distribution for count data;
-- **MCMC_BWQR_AL_bounded_count.R** : MCMC routine for the weighted quantile regression based on the Asymmetric Laplace distribution for bounded count.
+- **MCMC_BWQR_AL_bounded_count.R** : MCMC routine for the weighted quantile regression based on the Asymmetric Laplace distribution for bounded count data.
