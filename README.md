@@ -15,5 +15,4 @@ Directory with R routines used in:
 
 3. **Bayesian multiple-output quantile regression for complex survey data under informative sampling**.
 
-- **EM_BWQR_AL** : EM algorithm for the Bayesian single-output quantile regression; 
 - **EM_BWQR_AL_Mult** : EM algorithm for the Bayesian multiple-output quantile regression. 
