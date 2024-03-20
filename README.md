@@ -13,6 +13,8 @@ Directory with R routines used in:
 - **MCMC_BWQR_PL_count.R** : MCMC routine for the weighted quantile regression based on the pseudo posterior for count data;
 - **MCMC_BWQR_PL_bounded_count.R** : MCMC routine for the weighted quantile regression based on the pseudo posterior for bounded count data.
 
+<!--- 
 3. **Bayesian multiple-output quantile regression for complex survey data under informative sampling**.
 
-- **EM_BWQR_AL_Mult** : EM algorithm for the Bayesian multiple-output quantile regression. 
+- **EM_BWQR_AL_Mult** : EM algorithm for the Bayesian multiple-output quantile regression.
+---> 
