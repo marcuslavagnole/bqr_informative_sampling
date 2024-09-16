@@ -1,4 +1,4 @@
-Directory with R routines used in:
+Directory with R routines used in three main chapters of my doctoral dissertation:
 
 1. **Bayesian quantile regression models for complex survey data under informative sampling**, To appear in the Journal of Survey Statistics and Methodology.
 
