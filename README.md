@@ -17,4 +17,4 @@ Directory with R routines used in my doctoral dissertation:
 
 2. **A Bayesian approach to multiple-output quantile regression analysis under informative sampling**.  _R&R at the Journal of the Royal Statistical Society, Series A (Statistics in Society)_.
 
-- **EM_BWQR_AL_MO.R** : EM routine for the weighted quantile regression based on the Asymmetric Laplace distribution.
+- **EM_BWQR_AL_MO.R** : EM routine for the multiple-output weighted quantile regression based on the Asymmetric Laplace distribution.
