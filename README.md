@@ -6,11 +6,13 @@ Directory with R routines used in my doctoral dissertation:
 - **MCMC_BWQR_SL.R** : MCMC routine for the weighted quantile regression based on the score likelihood;
 - **MCMC_BWQR_AP.R** : MCMC routine for the weighted quantile regression based on the approximate method.
 
+<!--
 2. **Bayesian quantile regression models for bounded count data under informative sampling**. 
 
 - **MCMC_BWQR_AL_count.R** : MCMC routine for the weighted quantile regression based on the Asymmetric Laplace distribution for count data;
 - **MCMC_BWQR_AL_bounded_count.R** : MCMC routine for the weighted quantile regression based on the Asymmetric Laplace distribution for bounded count data.
 - **MCMC_BWQR_PL_count.R** : MCMC routine for the weighted quantile regression based on the pseudo posterior for count data;
 - **MCMC_BWQR_PL_bounded_count.R** : MCMC routine for the weighted quantile regression based on the pseudo posterior for bounded count data.
+-->
 
 3. **A Bayesian approach to multiple-output quantile regression analysis under informative sampling**.  _R&R at the Journal of the Royal Statistical Society, Series A (Statistics in Society)_.
