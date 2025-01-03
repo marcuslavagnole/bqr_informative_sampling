@@ -16,7 +16,7 @@ Directory with R routines used in my doctoral dissertation:
 - **MCMC_BWQR_PL_bounded_count.R** : MCMC routine for the weighted quantile regression based on the pseudo posterior for bounded count data.
 -->
 
-2. **A Bayesian approach to multiple-output quantile regression analysis under informative sampling**.  _R&R at the Journal of the Royal Statistical Society, Series A (Statistics in Society)_.
-
+2. **A Bayesian approach to multiple-output quantile regression analysis under informative sampling**.
+   
 - **EM_BWQR_AL_MO.R** : EM routine for the multiple-output weighted quantile regression based on the Asymmetric Laplace distribution.
 - **data_nhds.txt** : dataset utilized as a motivating example.
