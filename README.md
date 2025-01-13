@@ -1,4 +1,4 @@
-Directory with R routines used in my doctoral dissertation:
+Directory with R routines used in the following papers:
 
 1. **Bayesian quantile regression models for complex survey data under informative sampling**, Journal of Survey Statistics and Methodology, 12(4), 1105–1130, 2024. 
 
@@ -20,3 +20,5 @@ Directory with R routines used in my doctoral dissertation:
    
 - **EM_BWQR_AL_MO.R** : EM routine for the multiple-output weighted quantile regression based on the Asymmetric Laplace distribution.
 - **data_nhds.txt** : dataset utilized as a motivating example.
+
+3. **An Expectation-Maximization algorithm for noncrossing Bayesian quantile regression analysis under informative sampling**.
