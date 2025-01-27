@@ -22,3 +22,6 @@ Directory with R routines used in the following papers:
 - **data_nhds.txt** : dataset utilized as a motivating example.
 
 3. **An Expectation-Maximization algorithm for noncrossing Bayesian quantile regression analysis under informative sampling**.
+
+- **NoCrossBWQR_AL.R** : routine for noncrossing Bayesian quantile regression analysis under informative sampling.
+- **data_nhds_rural_northeast.txt** : dataset utilized as a real-data example.
