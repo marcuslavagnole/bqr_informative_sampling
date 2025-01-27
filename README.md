@@ -23,5 +23,5 @@ Directory with R routines used in the following papers:
 
 3. **An Expectation-Maximization algorithm for noncrossing Bayesian quantile regression analysis under informative sampling**.
 
-- **NoCrossBWQR_AL.R** : routine for noncrossing Bayesian quantile regression analysis under informative sampling.
+- **NoCrossBWQR_AL.R** : routine for noncrossing Bayesian quantile regression analysis under informative sampling. The file **MCMC_BWQR_AL.R** is required to run the function.
 - **data_nhds_rural_northeast.txt** : dataset utilized as a real-data example.
