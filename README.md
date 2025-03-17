@@ -2,6 +2,8 @@ This repository provides the R routines from my doctoral thesis and its main spi
 
 ### 1. Bayesian quantile regression models for complex survey data under informative sampling[^a]
 
+The interest in considering the relation among random variables in quantiles instead of the mean has emerged in various fields, and data collected from complex survey designs are of fundamental importance to different areas. Despite the extensive literature on survey data analysis and quantile regression models, research papers exploring quantile regression estimation accounting for an informative design have primarily been restricted to a frequentist framework. The paper introduces different Bayesian methods relying on the survey-weighted estimator and the estimating equations. 
+
 The repo includes:
 
 - **MCMC_BWQR_AL.R**: MCMC routine for the weighted quantile regression based on the Asymmetric Laplace distribution;
