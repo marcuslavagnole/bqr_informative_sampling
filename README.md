@@ -1,4 +1,4 @@
-This repository provides the R routines for the articles derived from my doctoral thesis and its main spin-offs. All the following projects 
+This repository provides the R routines for the articles derived from my doctoral thesis and its main spin-offs. All the following projects are joint work with my supervisor [Kelly C. M. Gonçalves](https://sites.google.com/dme.ufrj.br/kelly/). 
 
 ### 1. Bayesian quantile regression models for complex survey data under informative sampling[^a]
 
