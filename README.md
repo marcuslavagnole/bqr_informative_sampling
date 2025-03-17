@@ -2,8 +2,6 @@ This repository provides the R routines from my doctoral thesis and its main spi
 
 ### 1. Bayesian quantile regression models for complex survey data under informative sampling[^a]
 
-, Journal of Survey Statistics and Methodology, 12(4), 1105–1130, 2024. 
-
 - **MCMC_BWQR_AL.R**: MCMC routine for the weighted quantile regression based on the Asymmetric Laplace distribution;
 - **MCMC_BWQR_SL.R**: MCMC routine for the weighted quantile regression based on the score likelihood;
 - **MCMC_BWQR_AP.R**: MCMC routine for the weighted quantile regression based on the approximate method;
@@ -28,4 +26,4 @@ This repository provides the R routines from my doctoral thesis and its main spi
 - **NonCrossingBWQR_AL.R**: routine for noncrossing Bayesian quantile regression analysis under informative sampling. File **MCMC_BWQR_AL.R** is required to run the function.
 - **data_nhds_rural_northeast.txt**: dataset utilized as a real-data illustration.
 
-[^a]: Aa
+[^a]: , Journal of Survey Statistics and Methodology, 12(4), 1105–1130, 2024. 
