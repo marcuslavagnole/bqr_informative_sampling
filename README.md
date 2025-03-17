@@ -32,4 +32,4 @@ The repo includes:
 - **NonCrossingBWQR_AL.R**: routine for noncrossing Bayesian quantile regression analysis under informative sampling. File **MCMC_BWQR_AL.R** is required to run the function.
 - **data_nhds_rural_northeast.txt**: dataset utilized as a real-data illustration.
 
-[^a]: , Journal of Survey Statistics and Methodology, 12(4), 1105–1130, 2024. 
+[^a]: Nascimento, M. L., Gonçalves, K. C. M. [Bayesian quantile regression models for complex survey data under informative sampling](https://doi.org/10.1093/jssam/smae015). Journal of Survey Statistics and Methodology, 12(4), 1105-1130. 
