@@ -19,11 +19,15 @@ The repo includes:
 -->
 
 ### 2. A Bayesian approach to multiple-output quantile regression analysis under informative sampling
-   
+
+The repo includes:
+
 - **EM_BWQR_AL_MO.R**: EM routine for the multiple-output weighted quantile regression based on the Asymmetric Laplace distribution.
 - **data_nhds.txt**: dataset utilized as a motivating example.
 
 ### 3. An Expectation-Maximization algorithm for noncrossing Bayesian quantile regression analysis under informative sampling
+
+The repo includes:
 
 - **NonCrossingBWQR_AL.R**: routine for noncrossing Bayesian quantile regression analysis under informative sampling. File **MCMC_BWQR_AL.R** is required to run the function.
 - **data_nhds_rural_northeast.txt**: dataset utilized as a real-data illustration.
