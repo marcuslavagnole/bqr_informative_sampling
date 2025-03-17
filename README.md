@@ -1,4 +1,4 @@
-This repository provides the R routines from my doctoral thesis and its spin-offs.
+This repository provides the R routines from my doctoral thesis and its main spin-off.
 
 ### 1. Bayesian quantile regression models for complex survey data under informative sampling
 
