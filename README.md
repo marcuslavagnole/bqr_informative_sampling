@@ -1,6 +1,6 @@
 Directory with R routines used in the following papers:
 
-### 1. **Bayesian quantile regression models for complex survey data under informative sampling**
+### 1. Bayesian quantile regression models for complex survey data under informative sampling
 
 , Journal of Survey Statistics and Methodology, 12(4), 1105–1130, 2024. 
 
@@ -18,12 +18,12 @@ Directory with R routines used in the following papers:
 - **MCMC_BWQR_PL_bounded_count.R** : MCMC routine for the weighted quantile regression based on the pseudo posterior for bounded count data.
 -->
 
-2. **A Bayesian approach to multiple-output quantile regression analysis under informative sampling**.
+### 2. A Bayesian approach to multiple-output quantile regression analysis under informative sampling
    
 - **EM_BWQR_AL_MO.R**: EM routine for the multiple-output weighted quantile regression based on the Asymmetric Laplace distribution.
 - **data_nhds.txt**: dataset utilized as a motivating example.
 
-3. **An Expectation-Maximization algorithm for noncrossing Bayesian quantile regression analysis under informative sampling**.
+### 3. An Expectation-Maximization algorithm for noncrossing Bayesian quantile regression analysis under informative sampling.
 
 - **NonCrossingBWQR_AL.R**: routine for noncrossing Bayesian quantile regression analysis under informative sampling. File **MCMC_BWQR_AL.R** is required to run the function.
 - **data_nhds_rural_northeast.txt**: dataset utilized as a real-data illustration.
