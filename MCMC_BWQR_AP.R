@@ -39,8 +39,8 @@ atualizarBETA_MH_bio <- function(b,B,dados,x,beta,w,tau,ct,k,c0,c1){
 }
 
 
-# Bayesian Quantile Regression - Score based Likelihood
-bayesQRSL_weighted_bio <- function(y,x,w,tau,n_mcmc,burnin_mcmc,thin_mcmc,cte,c0,c1,a1,b1){
+# Bayesian Quantile Regression - Approximate Likelihood
+bayesQRSL_weighted_bio <- function(y,x,w,tau,n_mcmc,burnin_mcmc,thin_mcmc,cte,c0,c1){
   n         <- length(y)
   numcov    <- ncol(x)
   resultado <- list()
@@ -56,7 +56,7 @@ bayesQRSL_weighted_bio <- function(y,x,w,tau,n_mcmc,burnin_mcmc,thin_mcmc,cte,c0
   const[1]   <- cte
   # MCMC
   for(k in 2:n_mcmc){
-    beta_aux   <- atualizarBETA_MH_bio(a1,b1,y,x,beta[k-1,],w,tau,const[k-1],k,c0,c1)
+    beta_aux   <- atualizarBETA_MH_bio(rep(0,numcov),diag(rep(1000,numcov)),y,x,beta[k-1,],w,tau,const[k-1],k,c0,c1)
     beta[k,]   <- beta_aux[1:numcov] ; contador[k] <- beta_aux[(numcov+1)] ; const[k] <- beta_aux[(numcov+2)] 
   }
   resultado[[1]]  <- beta[seq(burnin_mcmc+1,n_mcmc,thin_mcmc),]
