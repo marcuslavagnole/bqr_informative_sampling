@@ -15,12 +15,8 @@ condicionalBETA_MH <- function(beta,b,B,dados,x,w,tau){
 }
 
 # Metropolis-Hasting for the coefficients
-atualizarBETA_MH <- function(b,B,dados,x,beta,w,tau,ct,k,t,c0,c1,contador){
+atualizarBETA_MH <- function(b,B,dados,x,beta,w,tau,ct,k,c0,c1){
   valoratual    <- beta
-  #log_ct        <- ifelse(k%%t==1,
-  #                        log(ct)+c0*(1/k^c1)*(sum(contador[(k-t):(k-1)])/t-0.234),
-  #                        log(ct))
-  ##sigma_MH      <- (length(dados)/(tau*(1-tau)))*chol2inv(chol(t(w^2*x)%*%x))
   sigma_MH      <- (tau*(1-tau))*chol2inv(chol((1/length(dados))*t(w^2*x)%*%x))
   #valorproposto <- as.vector(rmvnorm(1, mean=valoratual, sigma=exp(log_ct)*sigma_MH))
   valorproposto <- as.vector(rmvnorm(1, mean=valoratual, sigma=ct*sigma_MH))
@@ -42,7 +38,7 @@ atualizarBETA_MH <- function(b,B,dados,x,beta,w,tau,ct,k,t,c0,c1,contador){
 
 
 # Bayesian Quantile Regression - Score based Likelihood
-bayesQRSL_weighted <- function(y,x,w,tau,n_mcmc,burnin_mcmc,thin_mcmc,cte,t,c0,c1){
+bayesQRSL_weighted <- function(y,x,w,tau,n_mcmc,burnin_mcmc,thin_mcmc,cte,c0,c1){
   n         <- length(y)
   numcov    <- ncol(x)
   resultado <- list()
@@ -58,7 +54,7 @@ bayesQRSL_weighted <- function(y,x,w,tau,n_mcmc,burnin_mcmc,thin_mcmc,cte,t,c0,c
   const[1]   <- cte
   # MCMC
   for(k in 2:n_mcmc){
-    beta_aux   <- atualizarBETA_MH(rep(0,numcov),diag(rep(1000,numcov)),y,x,beta[k-1,],w,tau,const[k-1],k,t,c0,c1,contador)
+    beta_aux   <- atualizarBETA_MH(rep(0,numcov),diag(rep(1000,numcov)),y,x,beta[k-1,],w,tau,const[k-1],k,c0,c1)
     beta[k,]   <- beta_aux[1:numcov] ; contador[k] <- beta_aux[(numcov+1)] ; const[k] <- beta_aux[(numcov+2)] 
   }
   resultado[[1]]  <- beta[seq(burnin_mcmc+1,n_mcmc,thin_mcmc),]
