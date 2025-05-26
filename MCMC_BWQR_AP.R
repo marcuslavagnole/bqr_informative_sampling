@@ -17,7 +17,7 @@ condicionalBETA_MH_bio <- function(beta,b,B,dados,x,w,tau){
   return(funcao)
 }
 
-# Metropolis-Hasting for the coefficients
+# Metropolis-Hastings for the coefficients
 atualizarBETA_MH_bio <- function(b,B,dados,x,beta,w,tau,ct,k){
   valoratual    <- beta
   sigma_MH      <- (tau*(1-tau))*chol2inv(chol((1/length(dados))*t(w^2*x)%*%x))
