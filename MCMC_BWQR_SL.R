@@ -14,7 +14,7 @@ condicionalBETA_MH <- function(beta,b,B,dados,x,w,tau){
   return(funcao)
 }
 
-# Metropolis-Hasting for the coefficients
+# Metropolis-Hastings for the coefficients
 atualizarBETA_MH <- function(b,B,dados,x,beta,w,tau,ct,k){
   valoratual    <- beta
   sigma_MH      <- (tau*(1-tau))*chol2inv(chol((1/length(dados))*t(w^2*x)%*%x))
@@ -36,7 +36,7 @@ atualizarBETA_MH <- function(b,B,dados,x,beta,w,tau,ct,k){
 }
 
 
-# Bayesian Quantile Regression - Score based Likelihood
+# Bayesian Quantile Regression - Score-based Likelihood
 bayesQRSL_weighted <- function(y,x,w,tau,n_mcmc,burnin_mcmc,thin_mcmc){
   n         <- length(y)
   numcov    <- ncol(x)
