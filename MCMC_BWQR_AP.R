@@ -5,7 +5,7 @@ condicionalBETA_MH_bio <- function(beta,b,B,dados,x,w,tau){
   B_inv   <- chol2inv(chol(B))
   priori  <- -0.5*(t(beta-b)%*%B_inv%*%(beta-b))
   
-  w_un    <- sum(data_obj[[6]])/n*w
+  w_un    <- sum(w)/n*w
   s_tau   <- t(w_un*x)%*%(tau-((dados-x%*%beta)<0))
   s_tau_i <- x*as.vector(tau-((dados-x%*%beta)<0))
   w_cov_aux<-t(((1-(1/w_un))/(1/w_un)^2)*s_tau_i)%*%s_tau_i
