@@ -62,7 +62,7 @@ bayesQR_weighted_EM <- function(y,x,w,u,gamma_u,tau,mu0,sigma0,a0,b0){
     i = i+1
   }
   resultado[[1]]  <- beta[i-1,]
-  resultado[[2]]  <- sigma[i-1,]
+  resultado[[2]]  <- sigma[i-1]
   
   return(resultado)
 }
