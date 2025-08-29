@@ -47,6 +47,7 @@ bayesQR_weighted <- function(y,x,w,tau,n_mcmc,burnin_mcmc,thin_mcmc){
   return(resultado)
 }
 
+
 #######################################################################
 ## Auxiliary functions: Sampling from full conditional distributions ##
 #######################################################################
@@ -79,3 +80,4 @@ atualizarV<-function(y,x,w,beta,delta2,theta,sigma,n){
   }
   return(v)
 }
+
