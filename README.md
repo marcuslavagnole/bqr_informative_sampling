@@ -39,5 +39,4 @@ The repo includes:
 - **data_nhds_rural_northeast.txt**: dataset utilized as a real-data illustration.
 
 [^a]: Nascimento, M. L., Gonçalves, K. C. M. [Bayesian quantile regression models for complex survey data under informative sampling](https://doi.org/10.1093/jssam/smae015). Journal of Survey Statistics and Methodology, 12(4), 1105-1130. 
-
 [^b]: Nascimento, M. L., Gonçalves, K. C. M. A Bayesian approach to multiple-output quantile regression analysis under informative sampling. Accepted at the Journal of Survey Statistics and Methodology. 
