@@ -20,7 +20,7 @@ The repo includes:
 - **MCMC_BWQR_PL_bounded_count.R**: MCMC routine for the weighted quantile regression based on the pseudo posterior for bounded count data.
 -->
 
-### 2. A Bayesian approach to multiple-output quantile regression analysis under informative sampling
+### 2. A Bayesian approach to multiple-output quantile regression analysis under informative sampling[^b]
 
 The paper presents a Bayesian multiple-output quantile regression for complex survey data under informative sampling. Our approach relies on the asymmetric Laplace distributional assumption. From the location-scale mixture representation of this distribution, we introduce an Expectation–Maximization algorithm that provides a less computationally intensive alternative to the commonly used Markov Chain Monte Carlo algorithm for posterior inference. Our developments are mainly motivated by the joint analysis of growth indexes from Brazilian children under five.
 
@@ -39,3 +39,5 @@ The repo includes:
 - **data_nhds_rural_northeast.txt**: dataset utilized as a real-data illustration.
 
 [^a]: Nascimento, M. L., Gonçalves, K. C. M. [Bayesian quantile regression models for complex survey data under informative sampling](https://doi.org/10.1093/jssam/smae015). Journal of Survey Statistics and Methodology, 12(4), 1105-1130. 
+
+[^b]: Nascimento, M. L., Gonçalves, K. C. M. A Bayesian approach to multiple-output quantile regression analysis under informative sampling. Accepted at the Journal of Survey Statistics and Methodology. 
