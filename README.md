@@ -35,6 +35,7 @@ When quantiles are fitted separately, the resultant regression lines may cross, 
 
 The repo includes:
 
+- **noncrossing.pdf**: preprint.
 - **NonCrossingBWQR_AL.R**: routine for noncrossing Bayesian quantile regression analysis under informative sampling. File **MCMC_BWQR_AL.R** is required to run the function.
 - **data_nhds_rural_northeast.txt**: dataset utilized as a real-data illustration.
 
