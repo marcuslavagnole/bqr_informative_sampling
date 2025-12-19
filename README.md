@@ -1,3 +1,6 @@
+This repository provides the R routines from the working paper _An Expectation-Maximization algorithm for noncrossing Bayesian quantile regression analysis under informative sampling_.
+
+<!--
 This repository provides the R routines for the articles derived from my doctoral thesis and its main spin-offs. All the following projects are joint work with my supervisor, [Kelly C. M. Gonçalves](https://sites.google.com/dme.ufrj.br/kelly/). 
 
 ### 1. Bayesian quantile regression models for complex survey data under informative sampling[^a]
@@ -11,14 +14,12 @@ The repo includes:
 - **MCMC_BWQR_AP.R**: MCMC routine for the weighted quantile regression based on the approximate method;
 - **data_provabrasil.txt**: dataset utilized in the real-data-based simulation study.
 
-<!--
 2. **Bayesian quantile regression models for bounded count data under informative sampling**. 
 
 - **MCMC_BWQR_AL_count.R**: MCMC routine for the weighted quantile regression based on the Asymmetric Laplace distribution for count data;
 - **MCMC_BWQR_AL_bounded_count.R**: MCMC routine for the weighted quantile regression based on the Asymmetric Laplace distribution for bounded count data.
 - **MCMC_BWQR_PL_count.R**: MCMC routine for the weighted quantile regression based on the pseudo posterior for count data;
 - **MCMC_BWQR_PL_bounded_count.R**: MCMC routine for the weighted quantile regression based on the pseudo posterior for bounded count data.
--->
 
 ### 2. A Bayesian approach to multiple-output quantile regression analysis under informative sampling[^b]
 
@@ -28,6 +29,8 @@ The repo includes:
 
 - **EM_BWQR_AL_MO.R**: EM routine for the multiple-output weighted quantile regression based on the Asymmetric Laplace distribution.
 - **data_nhds.txt**: dataset utilized as a motivating example.
+
+-->
 
 ### 3. An Expectation-Maximization algorithm for noncrossing Bayesian quantile regression analysis under informative sampling
 
