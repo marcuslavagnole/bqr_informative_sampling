@@ -30,9 +30,9 @@ The repo includes:
 - **EM_BWQR_AL_MO.R**: EM routine for the multiple-output weighted quantile regression based on the Asymmetric Laplace distribution.
 - **data_nhds.txt**: dataset utilized as a motivating example.
 
--->
-
 ### 3. An Expectation-Maximization algorithm for noncrossing Bayesian quantile regression analysis under informative sampling
+
+-->
 
 When quantiles are fitted separately, the resultant regression lines may cross, violating the basic probabilistic rule that quantiles are monotonic functions and possibly causing problems for inference and interpretation in practice. The paper introduces a method for handling crossing issues regarding the analysis of complex survey data under informative sampling. Using the location-scale mixture representation of the asymmetric Laplace distribution, we write a joint posterior density function for the quantile levels of interest and develop a constrained Expectation-Maximization algorithm. Data from the Brazilian National Demographic Health Survey of Women and Children is analyzed to verify and illustrate the algorithm's effectiveness.
 
