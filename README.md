@@ -34,7 +34,7 @@ The repo includes:
 
 -->
 
-When quantiles are fitted separately, the resultant regression lines may cross, violating the basic probabilistic rule that quantiles are monotonic functions and possibly causing problems for inference and interpretation in practice. The paper introduces a method for handling crossing issues regarding the analysis of complex survey data under informative sampling. Using the location-scale mixture representation of the asymmetric Laplace distribution, we write a joint posterior density function for the quantile levels of interest and develop a constrained Expectation-Maximization algorithm. Data from the Brazilian National Demographic Health Survey of Women and Children is analyzed to verify and illustrate the algorithm's effectiveness.
+**Abstract**: When quantiles are fitted separately, the resultant regression lines may cross, violating the basic probabilistic rule that quantiles are monotonic functions and possibly causing problems for inference and interpretation in practice. The paper introduces a method for handling crossing issues regarding the analysis of complex survey data under informative sampling. Using the location-scale mixture representation of the asymmetric Laplace distribution, we write a joint posterior density function for the quantile levels of interest and develop a constrained Expectation-Maximization algorithm. Data from the Brazilian National Demographic Health Survey of Women and Children is analyzed to verify and illustrate the algorithm's effectiveness.
 
 The repo includes:
 
